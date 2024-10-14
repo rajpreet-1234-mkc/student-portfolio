@@ -1,0 +1,89 @@
+/***** GENERAL STYLING *****/
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', Optima;
+    color: #333333;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: #336699;
+    transition: color 0.5s;
+}
+
+.white-text {
+    color: #333333;
+}
+
+p {
+    font-family: 'Perpetua', 'Rockwell Extra Bold';
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    color: #555555;
+}
+
+p:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+img {
+    filter: grayscale(30%);
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transition: filter 0.5s, transform 0.5s;
+    transform: scale(1.05);
+}
+
+/***** VIDEO STYLING *****/
+#Typing_Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.7);
+}
+
+.Video_Text {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333333;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/***** CONTACT FORM STYLING *****/
+textarea, input[type="text"], input[type="email"] {
+    border-radius: 8px;
+}
+
+button[type="submit"] {
+    background-color: #0055aa;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #003366;
+}
